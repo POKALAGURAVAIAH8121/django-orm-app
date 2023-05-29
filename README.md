@@ -25,8 +25,8 @@ The admin page of our website is accessed using username and password.
 Records are added and saved in the table inside the database.
 ## PROGRAM
 Model.py
-  from django.db import models
-  from django.contrib import admin
+from django.db import models.
+from django.contrib import admin
 #Create your models here.
 class Student (models.Model):
 Refno=models.CharField(primary_key=True,max_length=10,help_text='Refno')
@@ -40,8 +40,6 @@ Admin.py
 from django.contrib import admin
 from .models import Student,StudentAdmin
 admin.site.register(Student,StudentAdmin)
-Include your code here
-
 ## OUTPUT
 
 Include the screenshot of your admin page.
