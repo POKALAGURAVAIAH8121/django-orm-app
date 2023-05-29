@@ -23,11 +23,11 @@ Now the server side program is executed .
 The admin page of our website is accessed using username and password.
 ### STEP 7:
 Records are added and saved in the table inside the database.
-#### PROGRAM
+## PROGRAM
 Model.py
 from django.db import models
 from django.contrib import admin
-# Create your models here.
+ Create your models here.
 class Student (models.Model):
 Refno=models.CharField(primary_key=True,max_length=10,help_text='Refno')
 Sname=models.CharField(max_length=50)
